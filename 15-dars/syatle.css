@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.tepafootr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tepafootr span {
+  display: flex;
+  gap: 2rem;
+}
+.salkataroq {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #eae0ce;
+}
+body {
+  background: #efe9e9;
+}
+.salkataroq a {
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  background: #ff730d;
+  border-radius: 8px;
+}
+.aa {
+  color: #ff730d;
+}
+.newong img {
+  height: 550px;
+}
+.new {
+  width: 500px;
+
+  height: 300px;
+}
+.kochma {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #f4f1f1;
+  box-shadow: 0px 3px 12px rgba(82, 61, 61, 0.56);
+  border-radius: 10px;
+  height: 100px;
+  width: 90%;
+  justify-content: center;
+  margin-left: 50px;
+  position: relative;
+  bottom: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+}
+.koch {
+  display: flex;
+  gap: 1rem;
+}
+.mont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mont span img {
+  padding: 10px;
+  background-color: rgb(42, 38, 38);
+  border-radius: 5px;
+}
+.mont span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.kattatoga {
+  display: flex;
+  margin-left: 100px;
+  gap: 2rem;
+}
+.chaptoga {
+  display: flex;
+  align-items: center;
+  background: #fff1f1;
+  padding: 20px;
+  border-radius: 5px;
+  height: 320px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  background: #fff1f1;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  height: 320px;
+}
+.ffgf img {
+  margin-left: -100px;
+  margin-top: -10px;
+}
+.ichi {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.ichi span h5 {
+  color: #ff730d;
+}
+.ichi span {
+  display: flex;
+  gap: 1rem;
+}
+.ichi .ii a {
+  padding: 8px 30px;
+  background-color: #ff730d;
+  color: wheat;
+  border-radius: 10px;
+}
+.ichi .ii img {
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.kalleksiya {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.opalarruu {
+  background: #fefafa;
+  width: 270px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.opalarruu span {
+  display: flex;
+  gap: 1rem;
+}
+.opalarruu a {
+  padding: 8px 25px;
+  background: #ff730d;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.jingalak {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ebf9ff;
+  margin-top: 100px;
+}
+.sozlar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 400px;
+}
+.sozlar a {
+  padding: 8px 20px;
+  background: #ff730d;
+  border-radius: 8px;
+  color: #ffffff;
+  width: 80px;
+}
+.sozlar h4 {
+  color: #ff730d;
+  font-size: 30px;
+}
+.sozlar h1 {
+  font-size: 50px;
+}
+.aya {
+  position: relative;
+}
+.jingalak {
+  background-color: #ebf9ff;
+  position: relative;
+  z-index: -1000000000000000000000000;
+}
+.aya .tepa {
+  position: absolute;
+  z-index: -1;
+  top: 80px;
+  left: 100px;
+}
+.aya .orta {
+  position: absolute;
+  top: 360px;
+  left: 140px;
+  z-index: -1;
+}
+.aya .pas {
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  left: 260px;
+}
+.trending {
+  display: flex;
+  margin-top: 100px;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.trending span {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.trending .box2 {
+  height: 195px;
+}
+.trending .box3 {
+  height: 195px;
+}
+.trending .box2 span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.trending .box3 span {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.trending .box2 img {
+  margin-left: -20px;
+}
+.trending .box3 img {
+  margin-left: -20px;
+}
+.input {
+  padding: 8px 20px;
+  background-color: #ff730d;
+  color: #ffffff;
+  display: flex;
+  gap: 2rem;
+  border-radius: 10px;
+}
+.jon {
+  position: absolute;
+  left: 100px;
+  top: 215px;
+  width: 350px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  background: #673613;
+  opacity: 0.5;
+  border-radius: 50px 50px 0px 0px;
+}
+.jon h2,
+p {
+  color: #ffffff;
+}
+.jon .lorem {
+  color: #ffffff;
+}
+.box {
+  position: relative;
+}
+.box p {
+  color: black;
+}
+.kattaakonpasitidagifootr {
+  background: #331c18;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.company h3 {
+  color: #ffffff;
+}
+.nombr {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+}
+.company p {
+  color: #ffffff;
+}
+.nombr span {
+  display: flex;
+  gap: 1rem;
+}
+.cpyer {
+  background-color: #331c18;
+  text-align: center;
+  padding: 30px;
+}
+.cpyer p {
+  color: #ffffff;
+}
+.nombr p {
+  color: #ffffff;
+}
+p {
+  color: #331c18;
+}
